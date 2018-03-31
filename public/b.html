@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Trabalho Prático1</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <scriptsrc="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <div id="page-header">
+        <div class="navbar-brand"><strong>CADASTRO DE NOVOS ÚSUARIOS</strong></div>
+        <div id="menu">
+          <a href="index.html">Aluna</a>
+          <a href="a.html">Home</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- container -->
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <div class="p-2 mb-2 bg-dark text-white"><strong>Dados pessoais:</strong></div>
+      </div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">Nome completo:</h5><br />
+      </div>
+      <div class="col-md-5">
+        <input class="form-control" id="nome" type="text">
+      </div>
+      <div class="col-md-3"></div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">Endereço:</h5><br />
+      </div>
+      <div class="col-md-5">
+        <input class="form-control" id="endereco" type="text">
+      </div>
+      <div class="col-md-3"></div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">Cidade:</h5><br />
+      </div>
+      <div class="col-md-5">
+        <input class="form-control" id="cidade" type="text" >
+      </div>
+      <div class="col-md-3"></div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">Estado:</h5>
+      </div>
+      <div class="col-md-3">
+        <select id="estado" class="form-control">
+          <option selected>Acre...</option>
+          <option>Alagoas...</option>
+          <option>Amapá...</option>
+          <option>Amazonas...</option>
+          <option>Bahia...</option>
+          <option>Ceará...</option>
+          <option>Espírito Santo...</option>
+          <option>Goiás...</option>
+          <option>Maranhão...</option>
+          <option>Mato Grosso...</option>
+          <option>Mato Grosso do Sul...</option>
+          <option>Minas Gerais...</option>
+          <option>Pará...</option>
+          <option>Paraíba...</option>
+          <option>Paraná...</option>
+          <option>Pernambuco...</option>
+          <option>Piauí...</option>
+          <option>Rio de Janeiro...</option>
+          <option>Rio Grande do Norte...</option>
+          <option>Rio Grande do Sul...</option>
+          <option>Rondônia...</option>
+          <option>Roraima...</option>
+          <option>Santa Catarina...</option>
+          <option>São Paulo...</option>
+          <option>Sergipe...</option>
+          <option>Tocantins...</option>
+        </select>
+      </div>
+      <div class="col-md-5"></div>
+
+      <div class="col-sm-12"><br />
+        <div class="p-2 mb-2 bg-dark text-white"><strong>Dados do Sistema:</strong></div>
+      </div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">Nome de Usúario:</h5><br />
+      </div>
+      <div class="col-md-5">
+        <input class="form-control" id="nome" type="text">
+      </div>
+      <div class="col-md-3"></div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">Senha:</h5><br />
+      </div>
+      <div class="col-md-5">
+        <input class="form-control" id="senha" type="text">
+      </div>
+      <div class="col-md-3"></div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">Confirme a senha:</h5><br />
+      </div>
+      <div class="col-md-5">
+        <input class="form-control" id="senha" type="text">
+      </div>
+      <div class="col-md-3"></div>
+
+      <div class="col-md-4">
+        <h5 id="text-color">E-mail:</h5><br /><br /><br />
+      </div>
+      <div class="col-md-5">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">Digite um e-mail válido.</small>
+      </div>
+      <div class="col-md-3"></div>
+
+      <div class="col-md-5"></div>
+      <div class="col-md-4">
+        <a href="theEnd.html" class="btn btn-lg btn-secondary">Cadastrar Usúario</a>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+  <footer>
+    <br /><br />
+  </footer>
+</body>
+</html>

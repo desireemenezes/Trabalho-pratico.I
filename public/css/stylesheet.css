@@ -1,0 +1,88 @@
+/*
+
+@autor Desirée Menezes
+@version 0.1
+
+*/
+
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #f3f3f3;
+}
+
+/******* Barra de navegação **********/
+
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link {
+  color: #FF69B4;
+}
+
+/*Links vistados*/
+a:visited {
+  color: #FF69B4;
+}
+
+/*Links hover*/
+a:hover {
+  color: gray;
+
+}
+
+/*Links active*/
+a:active {
+  color:##FF69B4;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color:#F08080;
+  border-radius: .3rem;
+}
+
+.informations {
+  color: #9a99a2;
+  font-size: 12px;
+}
+
+#page-header {
+  width: 720px;
+  margin: 0 auto;
+}
+
+#menu {
+  float: right;
+  padding: 10px 0;
+}
+
+/********** corpo *************/
+
+img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#center {
+  margin: 0 auto;
+}
+
+#text-color {
+  color: #9a99a2;
+}
