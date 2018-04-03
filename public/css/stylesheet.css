@@ -11,7 +11,9 @@
   padding: 0;
 }
 
-
+div {
+  border: solid red 1px;
+}
 
 body {
   height: 100%;
@@ -26,6 +28,7 @@ a {
   text-decoration: none;
   padding: 5px 10px;
 }
+
 /*Links não visitados*/
 a:link {
   color: #FF69B4;
@@ -79,8 +82,18 @@ img {
   display: inline-block;
 }
 
-#center {
-  margin: 0 auto;
+img.img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#center-img {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #text-color {
