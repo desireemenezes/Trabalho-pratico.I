@@ -11,9 +11,7 @@
   padding: 0;
 }
 
-div {
-  border: solid red 1px;
-}
+
 
 body {
   height: 100%;
@@ -47,7 +45,7 @@ a:hover {
 
 /*Links active*/
 a:active {
-  color:##FF69B4;
+  color:#FF69B4;
 }
 
 .jumbotron {
@@ -76,15 +74,16 @@ a:active {
 
 img {
   width: 250px;
-  height: 250px;
+  height: 235px !important;
   overflow: hidden;
   border-radius: 50%;
   display: inline-block;
 }
 
+
 img.img {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 155px !important;
   overflow: hidden;
   border-radius: 50%;
   display: inline-block;
